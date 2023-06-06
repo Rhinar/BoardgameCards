@@ -1,0 +1,866 @@
+{
+    "Character Sheet V1": [
+        {
+            "Character Name ": "Selena Nightshade",
+            "Archtype": "Assassin",
+            "HP": "8",
+            "Attack Mod": "4",
+            "Passive": "May choose to leave combat after taking damage, does not receive Points for future kills in round.",
+            "Ability": "Once per rest if there there is one enemy you may enter combat at the beginning of a round attacking a target of your choice.",
+            "Ultimate ": "Once per rest, name a unit, the first time you kill that unit will yield one extra point and fully heal your character."
+        },
+        {
+            "Character Name ": "Orion Stormarrow",
+            "Archtype": "Archer",
+            "HP": "10",
+            "Attack Mod": "3",
+            "Passive": "The first time you take damage in combat, only take half damage.",
+            "Ability": "Once per rest when you attack you may split the damage among units as you like",
+            "Ultimate ": "Once per rest, when you attack roll two dice, choose which to keep as your damage. If they match, keep both."
+        },
+        {
+            "Character Name ": "Isabella Shadowsong",
+            "Archtype": "Spy",
+            "HP": "10",
+            "Attack Mod": "3",
+            "Passive": "You can look at one players action card before action cards are revealed. You can choose to change your own action card before cards are revealed.",
+            "Ability": "Once per a rest, before action cards are revealed you can randomly swap a players action card. ",
+            "Ultimate ": "Deceptive Gambit - Once per rest, unleash a deceptive gambit to throw off your opponents. Each player reveals their action card simultaneously. Then, secretly choose a new action card and reveal it. Your chosen action card takes effect instead of the previously revealed one."
+        },
+        {
+            "Character Name ": "Raven Blackthorn",
+            "Archtype": "Thief",
+            "HP": "10",
+            "Attack Mod": "3",
+            "Passive": "Once per round if you are not in the lead steal a point from a gladiator",
+            "Ability": "Once per rest if you have no Battle Trait cards you can steal one card from someone with two Battle trait cards",
+            "Ultimate ": "Once per rest, choose a Gladiator and how many points you would like to steal from them. Both Gladiators roll a dice if the difference matches the number of points you choose, steal that many points."
+        },
+        {
+            "Character Name ": "Maximus Ironheart",
+            "Archtype": "General",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "Start with a random Battle Traint card. You can have up to three Battle Traits.",
+            "Ability": "Once per rest, before action cards are revealed name a card, gain a point for each card that matches what was named.",
+            "Ultimate ": "Once per rest, choose all action cards for Gladiators."
+        },
+        {
+            "Character Name ": "Kira Shadowblade",
+            "Archtype": "Blade Master",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "Increase damage by one each time you kill an enemy (last hit)",
+            "Ability": "Whenever you defend in combat you may choose to redirect 2 damage to a another unit other than the attacker.",
+            "Ultimate ": "Once per rest, roll a dice, deflect X amount of damage to another unit of your choice where X is the number rolled"
+        },
+        {
+            "Character Name ": "Seraphina Melodyweaver",
+            "Archtype": "Bard",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "When Defending you block 2 damage and can heal any one target 2.",
+            "Ability": "Once per rest, choose any number of units to gain advantage on their rolls for their next roll (roll double dice, keep the higher roll)",
+            "Ultimate ": "Once per rest, roll 3 dice, one will heal, one will deal damage, one will award points. Distribute them as you like."
+        },
+        {
+            "Character Name ": "Alistair Lightbringer",
+            "Archtype": "Cleric",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "Every time you heal a unit in Battle, gain a point.",
+            "Ability": "Once per rest, heal a target for 2 health, repeat this once.",
+            "Ultimate ": "When you or another Gladiator is knocked out roll dice, 4+ the unit is revived with 50% health (rounded down) still lose points but not stunned."
+        },
+        {
+            "Character Name ": "Seraphina Whitethorn",
+            "Archtype": "Martyr",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "Don't lose points for being stunned, gain a point each time you are stunned.",
+            "Ability": "Once per rest, force a target to attack you, they take the damage you are dealt plus your attack mod.",
+            "Ultimate ": "Once per rest, reduce your health to 0, deal damage equal to the health lost plus your attack mod. Any units stunned in this way are stunned before you are."
+        },
+        {
+            "Character Name ": "Draven Wildheart",
+            "Archtype": "Beast Master",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "Passive: Animal Bond - The Beast Master starts the game with a loyal companion. The companion assists in battles, dealing 1 additional damage with each attack.",
+            "Ability": "Call of the Wild - Once per rest, summon a temporary beast companion to aid in combat. The beast companion has 6 health and deals 2 damage with each attack. It remains in play until defeated or the battle ends.",
+            "Ultimate ": "Beast Horde - Once per rest, summon a horde of beasts to overwhelm your enemies. Summon 3 temporary beast companions with 4 health each. They deal 2 damage with each attack and remain in play until defeated or the battle ends."
+        },
+        {
+            "Character Name ": "Grom Bloodaxe",
+            "Archtype": "Barbarian",
+            "HP": "14",
+            "Attack Mod": "2",
+            "Passive": "Unyielding Rage - Whenever the Barbarian is knocked out, they immediately regain 4 health and return to battle with 2 attack mod for the next round.",
+            "Ability": "Frenzied Assault - Once per rest, enter a state of frenzied assault. For the next two rounds, the Barbarian's attack mod is increased by 2. However, the Barbarian cannot use Defend actions during this time.",
+            "Ultimate ": "Devastating Cleave - Once per rest, unleash a devastating cleave attack. Deal 5 damage to all monsters and gladiators in the battle. This attack cannot be modified by Battle Traits."
+        },
+        {
+            "Character Name ": "Seraphina Dawnshield",
+            "Archtype": "Paladin",
+            "HP": "16",
+            "Attack Mod": "2",
+            "Passive": "Divine Protection - The Paladin has a natural resistance to damage. Whenever they take damage, reduce it by 2 (minimum of 1).",
+            "Ability": "Shield of Justice - Once per rest, activate the Shield of Justice. The Paladin gains 4 temporary health that cannot be healed, and their attack mod is increased by 2 for the next round.",
+            "Ultimate ": "Once per rest, call upon divine powers to intervene in the battle. Fully heal the Paladin and all friendly conscious gladiators, remove all negative effects, and gain 3 temporary health. Additionally, all monsters in the battle lose 2 health."
+        },
+        {
+            "Archtype": "Merchant",
+            "HP": "10",
+            "Attack Mod": "3",
+            "Passive": "Open for Business: When training you can take an Item OR a Battle Trait. When entering battle If you do not have any items draw 3 items, pick 1 and shuffle the rest back into the deck.",
+            "Ability": "Once per rest discard an item and choose one of the following gain 3 points, heal 3, add 3 to your attack, or allow your other team member to each draw 1 item.",
+            "Ultimate ": "Once per rest choose a character with an Item, they must give you 5 points OR discard an Item OR discard a Battle Trait. "
+        },
+        {
+            "Archtype": "Wizard"
+        }
+    ],
+    "Copy of Character Sheet V1": [
+        {
+            "Character Name ": "Selena Nightshade",
+            "Archtype": "Assassin",
+            "HP": "8",
+            "Attack Mod": "4",
+            "Passive": "May choose to leave combat after taking damage, does not receive Points for future kills in round.",
+            "Ability": "Once per rest if there there is one enemy you may enter combat at the beginning of a round attacking a target of your choice.",
+            "Ultimate Generated": "Once per rest, the Assassin can disappear into the shadows, becoming undetectable and leaving combat. They do not receive points for future kills in the round.",
+            "Ultimate 2": "Once per rest, name a unit, the first time you kill that unit will yield one extra point and fully heal your character."
+        },
+        {
+            "Character Name ": "Orion Stormarrow",
+            "Archtype": "Archer",
+            "HP": "10",
+            "Attack Mod": "3",
+            "Passive": "The first time you take damage in combat, only take half damage.",
+            "Ability": "Once per rest when you attack you may split the damage among units as you like",
+            "Ultimate Generated": "Rain of Arrows - Once per rest, unleash a barrage of arrows upon your enemies. Deal 3 damage to each monster in the battle. If there are 4 or more monsters, increase the damage to 5.",
+            "Ultimate 2": "Once per rest, when you attack roll two dice, choose which to keep as your damage. If they match, keep both."
+        },
+        {
+            "Character Name ": "Isabella Shadowsong",
+            "Archtype": "Spy",
+            "HP": "10",
+            "Attack Mod": "3",
+            "Passive": "You can look at one players action card before action cards are revealed. You can choose to change your own action card before cards are revealed.",
+            "Ability": "Once per a rest, before action cards are revealed you can randomly swap a players action card. ",
+            "Ultimate Generated": "Shadow Manipulation - Once per rest, manipulate shadows to confuse your enemies. Before action cards are revealed, choose two players. Swap their action cards with each other.",
+            "Ultimate 2": "Deceptive Gambit - Once per rest, unleash a deceptive gambit to throw off your opponents. Each player reveals their action card simultaneously. Then, secretly choose a new action card and reveal it. Your chosen action card takes effect instead of the previously revealed one."
+        },
+        {
+            "Character Name ": "Raven Blackthorn",
+            "Archtype": "Thief",
+            "HP": "10",
+            "Attack Mod": "3",
+            "Passive": "Once per round if you are not in the lead steal a point from a gladiator",
+            "Ability": "Once per rest if you have no Battle Trait cards you can steal one card from someone with two Battle trait cards",
+            "Ultimate Generated": "Once per rest, disappear from sight and avoid damage. For the next two rounds, you cannot be targeted by attacks or abilities. You can still attack and use abilities.",
+            "Ultimate 2": "Once per rest, choose a Gladiator and how many points you would like to steal from them. Both Gladiators roll a dice if the difference matches the number of points you choose, steal that many points."
+        },
+        {
+            "Character Name ": "Maximus Ironheart",
+            "Archtype": "General",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "Start with a random Battle Traint card. You can have up to three Battle Traits.",
+            "Ability": "Once per rest, before action cards are revealed name a card, gain a point for each card that matches what was named.",
+            "Ultimate Generated": "War Cry - Once per rest, rally your allies with a mighty war cry. All conscious gladiators gain 2 temporary health and their attack mods are increased by 1 for the next two rounds.",
+            "Ultimate 2": "Once per rest, choose all action cards for Gladiators."
+        },
+        {
+            "Character Name ": "Kira Shadowblade",
+            "Archtype": "Blade Master",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "Increase damage by one each time you kill an enemy (last hit)",
+            "Ability": "Whenever you defend in combat you may choose to redirect 2 damage to a another unit other than the attacker.",
+            "Ultimate Generated": "Whirlwind Slash - Once per rest, unleash a whirlwind of slashes. Deal damage equal to your attack mod to all monsters and gladiators in the battle.",
+            "Ultimate 2": "Once per rest, roll a dice, deflect X amount of damage to another unit of your choice where X is the number rolled"
+        },
+        {
+            "Character Name ": "Seraphina Melodyweaver",
+            "Archtype": "Bard",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "When Defending you block 2 damage and can heal any one target 2.",
+            "Ability": "Once per rest, choose any number of units to gain advantage on their rolls for their next roll (roll double dice, keep the higher roll)",
+            "Ultimate Generated": "Melody of Inspiration - Once per rest, inspire your allies with a captivating melody. All conscious gladiators gain 2 temporary health and draw 1 additional Battle Trait card.",
+            "Ultimate 2": "Once per rest, roll 3 dice, one will heal, one will deal damage, one will award points. Distribute them as you like."
+        },
+        {
+            "Character Name ": "Alistair Lightbringer",
+            "Archtype": "Cleric",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "Every time you heal a unit in Battle, gain a point.",
+            "Ability": "Once per rest, heal a target for 2 health, repeat this once.",
+            "Ultimate Generated": "Frantic Prayer (non AI): Once per a rest, roll a dice, heal a target 1 health, repeat X times.",
+            "Ultimate 2": "When you or another Gladiator is knocked out roll dice, 4+ the unit is revived with 50% health (rounded down) still lose points but not stunned."
+        },
+        {
+            "Character Name ": "Seraphina Whitethorn",
+            "Archtype": "Martyr",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "Don't lose points for being stunned, gain a point each time you are stunned.",
+            "Ability": "Once per rest, force a target to attack you, they take the damage you are dealt plus your attack mod.",
+            "Ultimate 2": "Once per rest, reduce your health to 0, deal damage equal to the health lost plus your attack mod. Any units stunned in this way are stunned before you are."
+        },
+        {
+            "Character Name ": "Draven Wildheart",
+            "Archtype": "Beast Master",
+            "HP": "12",
+            "Attack Mod": "3",
+            "Passive": "Passive: Animal Bond - The Beast Master starts the game with a loyal companion. The companion assists in battles, dealing 1 additional damage with each attack.",
+            "Ability": "Call of the Wild - Once per rest, summon a temporary beast companion to aid in combat. The beast companion has 6 health and deals 2 damage with each attack. It remains in play until defeated or the battle ends.",
+            "Ultimate Generated": "Taming Mastery - Once per rest, harness your mastery over beasts. Choose a monster in the battle and attempt to tame it. Roll a dice, and if the result is 4 or higher, the monster becomes your temporary ally for the remainder of the battle. The monster retains its original health and attack values, but its attacks are directed towards other monsters.",
+            "Ultimate 2": "Beast Horde - Once per rest, summon a horde of beasts to overwhelm your enemies. Summon 3 temporary beast companions with 4 health each. They deal 2 damage with each attack and remain in play until defeated or the battle ends."
+        },
+        {
+            "Character Name ": "Grom Bloodaxe",
+            "Archtype": "Barbarian",
+            "HP": "14",
+            "Attack Mod": "2",
+            "Passive": "Unyielding Rage - Whenever the Barbarian is knocked out, they immediately regain 4 health and return to battle with 2 attack mod for the next round.",
+            "Ability": "Frenzied Assault - Once per rest, enter a state of frenzied assault. For the next two rounds, the Barbarian's attack mod is increased by 2. However, the Barbarian cannot use Defend actions during this time.",
+            "Ultimate Generated": "Unleashed Fury - Once per rest, tap into your primal rage and unleash an unstoppable fury. For the next two rounds, your attack mod is increased by 3, and your attacks ignore any defensive abilities or modifiers of the target. However, you cannot use Defend actions during this time.",
+            "Ultimate 2": "Devastating Cleave - Once per rest, unleash a devastating cleave attack. Deal 5 damage to all monsters and gladiators in the battle. This attack cannot be modified by Battle Traits."
+        },
+        {
+            "Character Name ": "Seraphina Dawnshield",
+            "Archtype": "Paladin",
+            "HP": "16",
+            "Attack Mod": "2",
+            "Passive": "Divine Protection - The Paladin has a natural resistance to damage. Whenever they take damage, reduce it by 2 (minimum of 1).",
+            "Ability": "Shield of Justice - Once per rest, activate the Shield of Justice. The Paladin gains 4 temporary health that cannot be healed, and their attack mod is increased by 2 for the next round.",
+            "Ultimate Generated": "Righteous Retribution - Once per rest, channel your righteous fury and deliver a powerful blow. Choose a target player or monster. Deal damage equal to your current health to the chosen target. If the target is defeated by this attack, gain 3 points. This attack cannot be modified by Battle Traits.",
+            "Ultimate 2": "Once per rest, call upon divine powers to intervene in the battle. Fully heal the Paladin and all friendly conscious gladiators, remove all negative effects, and gain 3 temporary health. Additionally, all monsters in the battle lose 2 health."
+        },
+        {
+            "Archtype": "Merchant",
+            "HP": "10",
+            "Attack Mod": "3",
+            "Passive": "Open for Business: When training you can take an Item OR a Battle Trait. When entering battle If you do not have any items draw 3 items, pick 1 and shuffle the rest back into the deck.",
+            "Ability": "Once per rest discard an item and choose one of the following gain 3 points, heal 3, add 3 to your attack, or allow your other team member to each draw 1 item.",
+            "Ultimate 2": "Once per rest choose a character with an Item, they must give you 5 points OR discard an Item OR discard a Battle Trait. "
+        },
+        {
+            "Archtype": "Wizard"
+        }
+    ],
+    "Items": [
+        {
+            "Item Name": "Apple",
+            "Type": "Consumable",
+            "Description": "Gain one point, heal one point"
+        },
+        {
+            "Item Name": "Mithril",
+            "Type": "Armor",
+            "Description": "When defending block 1 additional damage."
+        },
+        {
+            "Item Name": "Cursed Heart",
+            "Type": "Artifact",
+            "Description": "If you negative points when the game ends, you win."
+        },
+        {
+            "Item Name": "Rotten Apple",
+            "Type": "Consumable",
+            "Description": "Target hero loses one pint and one health point."
+        },
+        {
+            "Item Name": "Loaded Dice",
+            "Type": "Consumable",
+            "Description": "The next time you roll a dice, choose the number instead"
+        },
+        {
+            "Item Name": "Sharpened Blade",
+            "Type": "Equipment",
+            "Description": "Incrase your attack mod by 1"
+        },
+        {
+            "Item Name": "Cursed Eye",
+            "Type": "Artifact",
+            "Description": "Play with your cards revealed, when you again one or more points, gain that many plus 1."
+        },
+        {
+            "Item Name": "Monster Mask",
+            "Type": "Consumable",
+            "Description": "You may activate this before combat to fight alongside monsters in combat"
+        },
+        {
+            "Item Name": "Cursed Blade",
+            "Type": "Artifact",
+            "Description": "Whenever you are stunned lose an extra point. You have -1 point (this can drop you below 0 points)"
+        },
+        {
+            "Item Name": "Golden Apple",
+            "Type": "Consumable",
+            "Description": "Target 3 units, these untis heal 2 health points and if able to gain 2 points."
+        },
+        {
+            "Item Name": "Healing Potion",
+            "Type": "Consumable",
+            "Description": "Restore 3 health points to target unit."
+        },
+        {
+            "Item Name": "Enchanted Robe",
+            "Type": "Armor",
+            "Description": "When defending, block the next 2 damage."
+        },
+        {
+            "Item Name": "Lucky Charm",
+            "Type": "Artifact",
+            "Description": "Gain an extra point whenever you gain points through an action or ability."
+        },
+        {
+            "Item Name": "Poisoned Dagger",
+            "Type": "Equipment",
+            "Description": "Increase your attack mod by 1. If you successfully attack, the target loses 1 additional health point."
+        },
+        {
+            "Item Name": "Teleport Scroll",
+            "Type": "Consumable",
+            "Description": "Remove target from battle"
+        },
+        {
+            "Item Name": "Shield of Reflect",
+            "Type": "Armor",
+            "Description": "Whenever you successfully defend against an attack, the attacker takes 1 damage."
+        },
+        {
+            "Item Name": "Crystal Orb",
+            "Type": "Artifact",
+            "Description": "Once per rest, predict the outcome of a dice roll. If correct, gain 2 points."
+        },
+        {
+            "Item Name": "Potion of Strength",
+            "Type": "Consumable",
+            "Description": "The next time you attack, double your attack mod for that attack."
+        },
+        {
+            "Item Name": "Cloak of Invisibility",
+            "Type": "Consumable",
+            "Description": "Once per rest, become invisible until the start of your next turn. During this time, you cannot be targeted. "
+        },
+        {
+            "Item Name": "Skull Mask",
+            "Type": "Consumable",
+            "Description": "Activate this before combat to scare away all monsters, canceling their participation in the battle."
+        },
+        {
+            "Item Name": "Recycle",
+            "Type": "Consumable",
+            "Description": "Trade in 2 items, draw 3 items. Choose one and shuffle the remaining back into the deck"
+        },
+        {
+            "Item Name": "Rotting Ooze",
+            "Type": "Consumable",
+            "Description": "Destroy all items and Battle Trait cards you possess"
+        },
+        {
+            "Item Name": "Thick Hide",
+            "Type": "Armor",
+            "Description": "Increase your max health by 1"
+        }
+    ],
+    "Battle Trait": [
+        {
+            "Card Title": "Retreat",
+            "Description": "Remove a player of your choice from Battle. They gain a point."
+        },
+        {
+            "Card Title": "I Will Avenge You",
+            "Description": "Only play after a Gladiator is knocked out. Roll a dice and add the value to your Health and Attack until the end of combat."
+        },
+        {
+            "Card Title": "Are You Not Entertained",
+            "Description": "Only play after defeating a unit. Gain 2 points and 2 Health."
+        },
+        {
+            "Card Title": "Peek",
+            "Description": "Look at a player's Action Card before it is revealed. You can change yours afterwards."
+        },
+        {
+            "Card Title": "I’m Not Done Yet",
+            "Description": "The next time you are knocked out, instead set your health to 2."
+        },
+        {
+            "Card Title": "Nope",
+            "Description": "Negate the effect of another card (Monster or Battle Traits)."
+        },
+        {
+            "Card Title": "Lay on Hands",
+            "Description": "Heal to full Health."
+        },
+        {
+            "Card Title": "Spike Trap",
+            "Description": "Deal 1 damage to all opposing units."
+        },
+        {
+            "Card Title": "What’s It Got in Its Pockets",
+            "Description": "Roll a dice, steal X points from a unit, where X is the dice value."
+        },
+        {
+            "Card Title": "Sleight of Hand",
+            "Description": "Steal 1 point from a player and a battle trait or item card."
+        },
+        {
+            "Card Title": "Copycat",
+            "Description": "Choose a player. They must copy your Action card."
+        },
+        {
+            "Card Title": "Back to Back",
+            "Description": "You and another player gain 1 Block for the rest of combat."
+        },
+        {
+            "Card Title": "Give It Everything You Got",
+            "Description": "Only use if you have more than 1 Health. Reduce your Health to 1 and add +3 to your next attack."
+        },
+        {
+            "Card Title": "Target",
+            "Description": "Target any unit. They can attack any unit."
+        },
+        {
+            "Card Title": "I’ll Take You All On",
+            "Description": "Your attacks hit all enemies this combat."
+        },
+        {
+            "Card Title": "Blood Rush",
+            "Description": "The next time you Attack, Attack again. You can choose another target."
+        },
+        {
+            "Card Title": "Fireball",
+            "Description": "Deal 3 damage to up to 3 units of your choice."
+        },
+        {
+            "Card Title": "I’ll Have What You’re Having",
+            "Description": "Change your Action or Combat action card to another player's."
+        },
+        {
+            "Card Title": "Switch",
+            "Description": "Swap Action or Combat action cards with another player."
+        },
+        {
+            "Card Title": "Flame Aura",
+            "Description": "Whenever you are attacked this combat, the attacker takes 1 damage."
+        },
+        {
+            "Card Title": "Can’t Touch This",
+            "Description": "Gain immunity from everything for one Combat round."
+        },
+        {
+            "Card Title": "You Guys Are The Real Heroes",
+            "Description": "No Hero abilities can be used this Round. Hero abilities cannot be used in response to this. Hero abilities are \"sorcery\" speed unless swapping before combat (i.e., Thief)."
+        },
+        {
+            "Card Title": "Shields Up",
+            "Description": "Add 2 Block to any target."
+        },
+        {
+            "Card Title": "Hope Is Rekindled (A Blue Turtle)",
+            "Description": "Only play if you are leveled up and in Last Place. Gain 8 points."
+        },
+        {
+            "Card Title": "No Soup",
+            "Description": "Target player does not gain points the next instance they would."
+        },
+        {
+            "Card Title": "You Look Tired",
+            "Description": "Force a player to take the Rest action."
+        },
+        {
+            "Card Title": "You Didn’t Say Please",
+            "Description": "Negate the effect of another card (Monster or Battle Traits)."
+        },
+        {
+            "Card Title": "Get In There",
+            "Description": "Target a non-stunned player. They must take the Battle Action this round."
+        },
+        {
+            "Card Title": "It’s A Trap",
+            "Description": "No Battle Traits cards can be played in response to this card or this round. Item effects are nullified this round."
+        },
+        {
+            "Card Title": "I’ll Be Back",
+            "Description": "Play only at the beginning of Normal Battles. Fight alongside the Monster cards. Same rules for targeting as Gladiator Battles. Gain 5 points for winning."
+        },
+        {
+            "Card Title": "Winner Winner Chicken Dinner",
+            "Description": "All players can choose to roll a dice. The highest roll wins 1 point for each player that rolled a dice. (Ties for first re-roll only)."
+        },
+        {
+            "Card Title": "Bad Blood",
+            "Description": "Play before an event card is drawn, Gladiator Battle!"
+        }
+    ],
+    "Monsters": [
+        {
+            "Monster": "Fairy",
+            "HP": "10",
+            "Attack": "0",
+            "Description": "Whoever kills me heals 5 points, all Resting heroes gain 2 points",
+            "Experience": "1",
+            "Number in Deck": "2",
+            "undefined": "60"
+        },
+        {
+            "Monster": "Goblin",
+            "HP": "10",
+            "Attack": "2",
+            "Description": "Draw another monster card",
+            "Experience": "5",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Skeleton",
+            "HP": "10",
+            "Attack": "3",
+            "Description": "When defeated, all fighting Gladiators draw an Item",
+            "Experience": "5",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Zombie",
+            "HP": "10",
+            "Attack": "3",
+            "Description": "No Battle Traits can be played this combat",
+            "Experience": "5",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Mushroom Knight",
+            "HP": "10",
+            "Attack": "4",
+            "Description": "Heal all fighting Gladiators 1",
+            "Experience": "5",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Gargoyle",
+            "HP": "10",
+            "Attack": "0",
+            "Description": "Gladiators must attack me, draw another monster card",
+            "Experience": "5",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Rat Knight",
+            "HP": "10",
+            "Attack": "1",
+            "Description": "All Gladiators I damage must discard an Item or Battle Trait card, draw another monster card",
+            "Experience": "5",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Bomb",
+            "HP": "14",
+            "Attack": "0",
+            "Description": "If not destroyed after 1 round, discard and deal 5 damage to all fighting Gladiators",
+            "Experience": "5",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Wolf",
+            "HP": "10",
+            "Attack": "2",
+            "Description": "If I deal damage, all fighting Gladiators take 2 damage",
+            "Experience": "5",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Kobold",
+            "HP": "12",
+            "Attack": "2",
+            "Description": "When defeated, all fighting Gladiators draw an Item",
+            "Experience": "5",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Pirate",
+            "HP": "14",
+            "Attack": "3",
+            "Description": "Whoever defeats me draw one item, items cannot be used or actived this combat.",
+            "Experience": "6",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Banshee",
+            "HP": "14",
+            "Attack": "3",
+            "Description": "Damage cannot be Defended",
+            "Experience": "6",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Unicorn",
+            "HP": "12",
+            "Attack": "2",
+            "Description": "All Gladiators draw an item. Whoever kills me gains 2 points but loses 3 life, you cannot be knocked out this way. ",
+            "Experience": "6",
+            "Number in Deck": "2"
+        },
+        {
+            "Monster": "Orc",
+            "HP": "14",
+            "Attack": "3",
+            "Description": "Draw another monster card",
+            "Experience": "6",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Harpy",
+            "HP": "14",
+            "Attack": "4",
+            "Description": "When defeated, all fighting Gladiators draw an Item",
+            "Experience": "6",
+            "Number in Deck": "3"
+        },
+        {
+            "Monster": "Monster Bomb",
+            "HP": "15",
+            "Attack": "0",
+            "Description": "If not destroyed after 1 round, discard and deal 5 damage to all fighting Gladiators, draw 1",
+            "Experience": "8",
+            "Number in Deck": "2"
+        },
+        {
+            "Monster": "Baby Dragon",
+            "HP": "15",
+            "Attack": "4",
+            "Description": "Whoever defeats me refreshes their Ultimate (if you do not have an Ultimate, level up instead)",
+            "Experience": "8",
+            "Number in Deck": "2"
+        },
+        {
+            "Monster": "Necromancer",
+            "HP": "16",
+            "Attack": "3",
+            "Description": "Whenever a unit dies, draw a Monster (ignore any additional draw effects)",
+            "Experience": "8",
+            "Number in Deck": "2"
+        },
+        {
+            "Monster": "Giant Spider",
+            "HP": "16",
+            "Attack": "3",
+            "Description": "Whenever this monster damages a Gladiator, that Gladiator loses 1 Attack till combat ends",
+            "Experience": "8",
+            "Number in Deck": "2"
+        },
+        {
+            "Monster": "Medusa",
+            "HP": "20",
+            "Attack": "5",
+            "Description": "At the start of each combat round, roll a 6-sided dice. On a 1, all Gladiators are stunned and cannot perform actions this round.",
+            "Experience": "10",
+            "Number in Deck": "1"
+        },
+        {
+            "Monster": "Minotaur",
+            "HP": "20",
+            "Attack": "5",
+            "Description": "Increase Attack by 1 each combat round. All Gladiators must attack me.",
+            "Experience": "10",
+            "Number in Deck": "1"
+        },
+        {
+            "Monster": "Vampire",
+            "HP": "18",
+            "Attack": "4",
+            "Description": "Whenever this monster attacks, heal 2 life",
+            "Experience": "10",
+            "Number in Deck": "1"
+        },
+        {
+            "Monster": "Dragon",
+            "HP": "1 + X",
+            "Attack": "1 + X",
+            "Description": "X = 10 or highest point value among fighting Gladiators, whichever is higher",
+            "Experience": "10",
+            "Number in Deck": "1"
+        },
+        {
+            "Monster": "Cyclops",
+            "HP": "20",
+            "Attack": "7",
+            "Description": "Attack individual with highest point value",
+            "Experience": "12",
+            "Number in Deck": "1"
+        },
+        {
+            "Monster": "Elemental",
+            "HP": "20",
+            "Attack": "4",
+            "Description": "Attack First. Attack mods are ignore while I am in Combat",
+            "Experience": "10",
+            "Number in Deck": "1"
+        },
+        {
+            "Monster": "Animated Armor",
+            "HP": "20",
+            "Attack": "2",
+            "Description": "Reduce damage I take by 2",
+            "Experience": "10",
+            "Number in Deck": "1"
+        },
+        {
+            "Monster": "Genie",
+            "HP": "20",
+            "Attack": "1",
+            "Description": "Draw 3 Monster cards, all Gladiators can draw an Item or a Battle Trait",
+            "Experience": "10",
+            "Number in Deck": "1"
+        },
+        {
+            "Monster": "Grim Reaper",
+            "HP": "20",
+            "Attack": "20",
+            "Description": "When revealed, all Gladiators with over 20 points must roll a dice, anyone who rolls a 1 is knocked out and loses 3 points. Discard this card after the effect resolves.",
+            "Experience": "0",
+            "Number in Deck": "1"
+        }
+    ],
+    "Event": [
+        {
+            "Event Card": "Out with the Old",
+            "Description": "All Gladiators who enter battle may discard an Item to draw another item",
+            "Number in Deck": "2",
+            "undefined": "68"
+        },
+        {
+            "Event Card": "Take this",
+            "Description": "All Gladiators who enter battle may draw an item if they do not have any items.",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Get in there",
+            "Description": "All Gladiators must participate in this Battle, Draw an extra Monster card",
+            "Number in Deck": "4"
+        },
+        {
+            "Event Card": "Dulled Weapons",
+            "Description": "Attack Mods are ignored this Battle",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Chipped Armor",
+            "Description": "Can't Defend this Battle",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "The Crowd Goes Wild!",
+            "Description": "HP and Attack Mod + 2 for this round",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Cheer",
+            "Description": "Increase cheer by 1",
+            "Number in Deck": "4"
+        },
+        {
+            "Event Card": "Rest up",
+            "Description": "All players resting this round get 1 point",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "On Second Thought",
+            "Description": "All players who Battle this round gain 1 point. You can change your Gladiator Action card.",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "They seem angry",
+            "Description": "Monsters deal 1 extra damage",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Friend or Foe",
+            "Description": "Gladiator Battle!",
+            "Number in Deck": "12"
+        },
+        {
+            "Event Card": "Mix it up",
+            "Description": "Swap your Gladiator Action card blindly",
+            "Number in Deck": "4"
+        },
+        {
+            "Event Card": "Drop it",
+            "Description": "Discard a Battle Trait card if you have one",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Keep up",
+            "Description": "The Gladiator with the lowest point value gains a point",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Fury Unleashed",
+            "Description": "All Gladiators deal +2 damage for this battle",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Muscle Through",
+            "Description": "No Hero abilities can be used this round.",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Shield Bash",
+            "Description": "All Gladiators have their Defense reduced by 1 for this battle",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Treasure Hunt",
+            "Description": "All Gladiators draw an Item card from the treasure deck",
+            "Number in Deck": "4"
+        },
+        {
+            "Event Card": "Power Surge",
+            "Description": "All Gladiators' abilities are immediately refreshed (Ultimate too if leveled up)",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Unstable Ground",
+            "Description": "Each Gladiator rolls a dice. On a 1 or 2, they lose 2 HP; on a 3 or 4, they gain 2 HP; on a 5 or 6, they gain 2 points",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Adrenaline Rush",
+            "Description": "The first Gladiator to be knocked out instead has their health set to 1 and gains a point. Draw an extra Monster card.",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Deadly Encounter",
+            "Description": "Draw additional 3 Monster cards. All battling Gladiators gain +2 Attack Mod and draw an Item.",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Sharpened Blades",
+            "Description": "Gladiators have advantage on damage rolls this battle. Increase cheer by 1. Draw an extra Monster card when Battle starts.",
+            "Number in Deck": "2"
+        },
+        {
+            "Event Card": "Chaos Reigns",
+            "Description": "Draw an extra monster card. Gladiators can attack any targets",
+            "Number in Deck": "4"
+        }
+    ],
+    "Boss": [
+        {
+            "Name": "Mushroom King",
+            "HP": "40",
+            "Attack": "4",
+            "Description": "Pull 3 Mushroom Knights from the Monster deck or discard pile, add them to Combat"
+        },
+        {
+            "Name": "Serpent Empress",
+            "HP": "45",
+            "Attack": "4",
+            "Description": "Whenever a Gladiator damages the Serpent Empress, they lose 2 HP due to venomous retaliation"
+        }
+    ]
+}
